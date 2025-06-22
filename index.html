@@ -1,72 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bruno Chiappe</title>
   <style>
     body {
+      margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      max-width: 800px;
+      background-color: #800020; /* rojo vino fuerte */
+      color: #2a0000;
+    }
+    header {
+      background-color: #ffeaea;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 4px solid #4a0000;
+    }
+    nav {
+      background-color: #4a0000;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
       margin: auto;
       padding: 20px;
-      background-color: #fffafa;
-      color: #4a0000;
+    }
+    .card {
+      background-color: #fff4f4;
+      border: 2px solid #4a0000;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
     h1, h2 {
-      color: #800020; /* Rojo vino */
+      color: #800020;
     }
-    ul {
-      list-style: square inside;
+    a {
+      color: #800020;
     }
-    .contact {
-      margin-top: 40px;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
+  <!-- Encabezado -->
   <header>
-    <h1>Bienvenido, soy Bruno Chiappe</h1>
-    <p>Soy estudiante de Administración de Negocios en la Universidad Católica San Pablo. Actualmente estoy cursando el tercer ciclo de la carrera, con muchas ganas de seguir creciendo personal y profesionalmente.</p>
+    <h1>Bruno Chiappe</h1>
+    <p>Estudiante de Administración de Negocios</p>
   </header>
 
-  <section>
-    <h2>Personas que conocí en la universidad</h2>
-    <p>A lo largo de este tiempo universitario he tenido la oportunidad de compartir momentos con compañeros que hoy considero amigos:</p>
-    <ul>
-      <li>Viviana Belen Sanz Caballero</li>
-      <li>Gabriela Carvallo</li>
-      <li>Santiago Bolaños</li>
-      <li>Tomas Becerra</li>
-      <li>Keren Esteves</li>
-      <li>Yoandria Martinez</li>
-      <li>Emily Nikole Sánchez Gonzales</li>
-    </ul>
-  </section>
+  <!-- Menú de navegación -->
+  <nav>
+    <a href="#sobre-mi">Inicio</a>
+    <a href="#companeros">Compañeros</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
 
-  <section>
-    <h2>Lo que disfruto hacer</h2>
-    <p>En mis tiempos libres suelo disfrutar mucho de la música, escuchar distintos géneros, hacer deporte o entrenar para mantenerme activo, y salir a compartir buenos momentos con mis amigos.</p>
-  </section>
+  <!-- Contenido principal -->
+  <div class="container">
 
-  <section>
-    <h2>Asignaturas que estoy llevando</h2>
-    <ul>
-      <li>Análisis Financiero</li>
-      <li>Cálculo en Varias Variables</li>
-      <li>Filosofía de la Naturaleza</li>
-      <li>Liderazgo</li>
-      <li>Historia Occidental</li>
-      <li>Pensamiento del Consumidor</li>
-      <li>Pensamiento Computacional (con el profesor Ernesto Cuadros)</li>
-    </ul>
-  </section>
+    <div class="card" id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Tengo 18 años y actualmente estudio la carrera de 
+        <a href="https://ucsp.edu.pe/carreras/administracion-negocios/" tar
 
-  <section class="contact">
-    <h2>¿Quieres contactarme?</h2>
-    <p>Estoy disponible por correo electrónico:</p>
-    <p><strong>brunochiappe477@gmail.com</strong></p>
-  </section>
-</body>
-</html>
-
+    
